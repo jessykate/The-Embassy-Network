@@ -1,388 +1,376 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>The Embassy Distributed Housing Network</title>
-    <meta name="description" content="">
-    <meta name="author" content="">
+	<head>
+		<meta charset="utf-8">
+		<title>The Embassy Distributed Housing Network</title>
+		<meta name="description" content="">
+		<meta name="author" content="">
 
-    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
-    <!--[if lt IE 9]>
-      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+		<!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+		<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
 
-    </div> <!-- /container -->
+		<!-- Le styles -->
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<style type="text/css">
+			body {
+				padding-top: 60px;
+				padding-bottom: 40px;
+				font-family: 'Vollkorn', serif;
+				font-size: 16px;
+			}
+			p, ol {
+				font-family: 'Vollkorn', serif;
+				font-size: 14px;
+			}
+			.hero-unit p {
+				font-size: 17px;
+			}
+			.hero-unit h1 {
+				font-size: 35px;
+			}
+			.hero-unit {
+				background: none;
+				padding: 0px;
+				padding-top: 20px;
+				padding-bottom: 10px;
+			}
+			.nav-pills > .active > a, .nav-pills > .active > a:hover {
+				background-color: #999;
+				color: white;
+			}
+			a {
+				color: pink;
+			}
+			footer a {
+				color: gray;
+			}
+			#contact > a {
+				color: gray;
+			}
+			h2 {
+				font-size: 20px;
+			}
+			#main {
+				min-height: 500px;
+			}
+		</style>
 
-    <!-- Le styles -->
-	<link rel="stylesheet" href="css/bootstrap.css">
-	<!--
-    <style type="text/css">
-	  section {
-		  padding-top: 60px;
-	  }
-	  .hero-unit h1 {
-		  padding-top: 30px;
-		  font-size: 50px;
-	  }
-	  .topbar, .topbar-inner {
-		  box-shadow: 0 1px 3px #FE57A1,inset 0 -1px 0 #FE57A1;
-	  }
-    </style>
-	-->
-	<style type="text/css">
-		body {
-			padding-top: 60px;
-			padding-bottom: 40px;
-			font-family: 'Vollkorn', serif;
-			font-size: 16px;
-		}
-		p, ol {
-		font-family: 'Vollkorn', serif;
-		font-size: 14px;
-		}
-	  .hero-unit p {
-		  font-size: 17px;
-	  }
-	  .hero-unit h1 {
-		  font-size: 35px;
-	  }
-	  .hero-unit {
-		  background: none;
-		  padding: 0px;
-		  padding-top: 20px;
-		  padding-bottom: 10px;
-	  }
-	  .nav-pills > .active > a, .nav-pills > .active > a:hover {
-		  background-color: #999;
-		  color: white;
-	  }
-	  a {
-		  color: pink;
-	  }
-	  footer a {
-		  color: gray;
-	  }
-	  #contact > a {
-		  color: gray;
-	  }
-	  h2 {
-		  font-size: 20px;
-	  }
-	</style>
+		<!-- Le fav and touch icons -->
+		<link rel="shortcut icon" href="images/favicon.ico">
+		<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+		<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+		<link href='http://fonts.googleapis.com/css?family=Vollkorn' rel='stylesheet' type='text/css'> 
 
-    <!-- Le fav and touch icons -->
-    <link rel="shortcut icon" href="images/favicon.ico">
-    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
-	<link href='http://fonts.googleapis.com/css?family=Vollkorn' rel='stylesheet' type='text/css'> 
+	</head>
 
-  </head>
+	<body>
 
-  <body>
+		<div class="container">
 
-    <div class="container">
-
-	<div class="tabbable">
-	   <ul class="nav nav-pills" id="page-tabs">
-		   <li class="active"><a href="#home" data-toggle="pill"><h2 class="logo">The Embassy Network</h2></a></li>
-          <li><a href="#overview" data-toggle="pill"><h2>Overview</h2></a></li>
-          <li><a href="#locations" data-toggle="pill"><h2>Locations</h2></a></li>
-          <li><a href="#membership" data-toggle="pill"><h2>Membership</h2></a></li>
-          <li><a href="#financial" data-toggle="pill"><h2>Financial</h2></a></li>
-          <li><a href="#getinvolved" data-toggle="pill"><h2>Get Involved</h2></a></li>
-      </ul>
+			<div class="tabbable">
+				<ul class="nav nav-pills" id="page-tabs">
+					<li class="active"><a href="#home" data-toggle="pill"><h2 class="logo">The Embassy Network</h2></a></li>
+					<li><a href="#overview" data-toggle="pill"><h2>Overview</h2></a></li>
+					<li><a href="#locations" data-toggle="pill"><h2>Locations</h2></a></li>
+					<li><a href="#membership" data-toggle="pill"><h2>Membership</h2></a></li>
+					<li><a href="#financial" data-toggle="pill"><h2>Financial</h2></a></li>
+					<li><a href="#getinvolved" data-toggle="pill"><h2>Get Involved</h2></a></li>
+				</ul>
 
 
-      <div class="tab-content"> <!-- wraps all tabs -->
+				<div id="main">
+					<div class="tab-content"> <!-- wraps all tabs -->
 
-	<div class="tab-pane active" id="home">
+						<div class="tab-pane active" id="home">
 
-      <!-- Main hero unit for a primary marketing message or call to action -->
-      <div class="hero-unit">
-		  <h1>Live & Collaborate in Locations Around the World</h1>
-		  <h2>A Housing network for driven world changers</h2>
-		  <br>
-		<p>The Embassy Network is a private club for a new generation. It is a
-		place to call home for professionals and creatives who travel the far
-		reaches of the globe and the mind; a place to share a stimulating
-		environment built around dynamic interaction, creativity, and intention
-		where members can travel and always be at home.</p>
-		
-		<p>As collaborative work spaces have changed the landscape of business,
-		the Embassy Network pushes creativity to the next level - getting the
-		right people in the room, outside of formality, to cultivate innovation
-		like never before. Members have access to full-time and/or
-		flexible-duration accommodations, and receive access to collaborative
-		space, events, and a global community of like-minded individuals.</p> 
-      </div>
+							<!-- Main hero unit for a primary marketing message or call to action -->
+							<div class="hero-unit">
+								<h1>Live & Collaborate in Locations Around the World</h1>
+								<h2>A Housing network for driven world changers</h2>
+								<br>
+								<p>The Embassy Network is a private club for a new generation. It is a
+								place to call home for professionals and creatives who travel the far
+								reaches of the globe and the mind; a place to share a stimulating
+								environment built around dynamic interaction, creativity, and intention
+								where members can travel and always be at home.</p>
 
-
-      <!-- rows with columns -->
-      <div class="row">
-        <div class="span4">
-          <h2>Co-Living</h2>
-		  <p>Each Embassy location will offer short and long term residential
-		  accommodations in a co-living, community setting. Long term residents
-		  live in the Embassy as their primary residence, provide an anchor to
-		  local culture, and are active participants in creating activities and
-		  events at their location.</p>
-        </div>
-        <div class="span4">
-          <h2>Flexible Duration</h2>
-		   <p>In addition to long term accommodations, each Embassy provides
-		   short term accommodations operated much like a B&B. Members reserve
-		   space at any location in the network, anywhere around the world, as
-		   needed to support their travel, work, and collaborations.</p>
-       </div>
-        <div class="span4">
-          <h2>Community Space</h2>
-		  <p>Every Embassy location includes a community space open to members
-		  and friends to gather and connect. These spaces differ per-location.
-		  From co-working space to restaurants, each community space is a key
-		  tie-in to local culture and a way to remain outward focused in
-		  ideation, problem-solving, and relationship-building.</p>
-        </div>
-      </div>
-      </div>
+								<p>As collaborative work spaces have changed the landscape of business,
+								the Embassy Network pushes creativity to the next level - getting the
+								right people in the room, outside of formality, to cultivate innovation
+								like never before. Members have access to full-time and/or
+								flexible-duration accommodations, and receive access to collaborative
+								space, events, and a global community of like-minded individuals.</p> 
+							</div>
 
 
-		<div class="tab-pane" id="overview">
-		<div class="row">
-			<div class="span3">
-			<h1>Overview</h1>
-				<h2><em>Purpose-driven</em></h2>
-			</div>
-			<div class="span8">
-				<p>The Embassy Network will be a coordinating body: connecting
-				existing properties, coordinating membership, supporting new
-				houses, and providing online resources.</p>
-
-				<p>Each individual property, or <em>local embassy node</em>,
-				provides a curated space for organic and impromptu
-				interactions. Each node has independent day-to-day operations
-				and a distinct culture, hosting its own microcosm of workshops,
-				salons, dinners, and other events. Residents are chosen by
-				other residents, and the balance of rooms set aside for short-
-				and long-term accommodation decided together between residents
-				and the Global Embassy Network.</p>
-
-				<p>By leveraging co-location, the fresh perspectives that comes
-				with travel, the organic interactions that happen in the home
-				environment, and the power of food for building community, we
-				feel that the investment that we and others make in ourselves
-				can be vastly enhanced. Need a little time to focus and
-				reflect? Don't worry, there's space to get away as well. </p>
-
-			</div>
-		</div>
-		</div>
-
-		<div class="tab-pane" id="locations">
-		<div class="row">
-			<div class="span3">
-			<h1>Locations</h1>
-				<h2><em>Travel and always be at home</em></h2>
-			</div>
-			<div class="span8">
-
-				<p>The first Embassy nodes are targeted for San Francisco and
-				DC: two urban centers with high concentrations of creative
-				individuals, both resident and transient. We consider our
-				"minimum viable product" to be at least two cities for testing
-				the financial and membership model.</p>
-
-				<p>The ideal Embassy location has 3 specific functions:</p>
-				<ol>
-					<li>long-term residential rooms and/or suites, 
-					<li>shorter-term accommodations, 
-					<li>a public, possibly commercial, community-oriented space. 
-				</ol>
-
-				<p>An archetypal design would have this community space on the
-				ground floor, open to foot traffic, and supporting collaborations
-				and human interactions, keeping a fresh flow of people and
-				ideas through the space. Each location will decide the
-				specific theme or purpose of this community space as a
-				function of its environment, local needs and culture. It might
-				be a co-working space, cafe, restaurant, bar, or something
-				else. The second floor would house short-term accommodation
-				rooms, as well as a large, industrial-grade, shared kitchen,
-				common rooms, and library.  Finally, the third floor would
-				contain the longer term full time residences. These might be
-				small suites, large rooms, or a combination of both.
-				</p>
-			</div>
-		</div>
-		</div>
-
-		<div class="tab-pane" id="membership">
-		<div class="row">
-			<div class="span3">
-				<h1>Membership</h1>
-				<h2><em>Surround yourself with excellence.</em></h2>
-			</div>
-			<div class="span8">
-
-				<p> Passion and drive are cultivated by a supportive external
-				environment, and every Embassy location is a safe haven for new
-				ideas, hard work, reflection, and fun. Membership in the
-				Embassy Network is exclusive-- we want only those willing to
-				assert, with no apologies, their passion for innovation,
-				experimentation, and changing the world for the better. If you
-				see yourself in these words, then you are home. There is no
-				right or wrong. Only a shared purpose and committment.</p>
-
-				<p>Members may either be full-time residents at a specific
-				location in the network, or use the flexible accommodations
-				much like they would use a Bed and Breakfast: as a replacement
-				for the anonymous hotels, mass-produced food, and cultural
-				disconnect that so often comes with traveling for work.</p>
-
-				<p>Membership levels will exist to suit different needs, and include
-				primary-residence, blocks of per-nite accomodation, and
-				organizational membership.</p>
-
-			</div>
-		</div>
-		</div>
-
-		<div class="tab-pane" id="financial">
-		<div class="row">
-			<div class="span3">
-			<h1>Financial</h1>
-				<h2><em>A community-profit organization.</em></h2>
-			</div>
-			<div class="span8">
-				<p>The Embassy Network is incorporated as a Benefit Corporation
-				in the state of California. Our fundamental governing principle
-				is to never profiteer off our community and our homes.
-				Correspondingly, we have set out to design an organization that
-				at its core is not-for-profit, but that may take investment if
-				the community decides there is a valuable opportunity to scale.
-				The founding board of directors have inserted a corporate bylaw
-				stating that shareholders and directors agree not to take
-				dividends from the corporation; that any future directors or
-				shareholders must explicitly agree to this bylaw, and that
-				changing this by law requires full consensus of all
-				shareholders and directors. (thus any decision about taking
-				investors would also require this consensus). This is an
-				experiment is creating what we have been calling a
-				"community-profit" organization.</p>
-
-				<p>Any future profits, should they exist, will be re-invested
-				into Embassy Network activities, real estate purchases, or
-				community funding to support projects of our members. Beyond
-				this guiding principle and initial set of stipulations, we
-				intend to select and experiment with decision making, fee and
-				financial structures to ensure sustainability, together with
-				members of the community.</p>
-
-				<p>The Embassy Network will partner with houses to evolve an
-				operational and financial model. It will also offer services
-				such as online booking and payment, house management software,
-				insurance, permitting guidance, cultural, design and financial
-				assistance getting new houses off the ground, and policy
-				advisory/advocacy efforts. </p>
-
-			</div>
-		</div>
-		</div>
-
-	<div class="tab-pane" id="getinvolved">
-	<div class="row">
-		<div class="span4">
-			<h2>What We're Doing</h2>
-			<p>At the moment we're focused on discussing and refining the idea,
-			identifying partnerships, writing software, and finding houses who
-			are interested in joining this crazy scheme.</p>
-		</div>
-		<div class="span4">
-			<h2>Interested?</h2> 
-			<p>Anyone passionate about the idea is welcome to drop a line and
-			get involved. Specific skills that would be great right now are
-			designers, front-end developers, coders, connectors, organizational
-			lawyers, people knowledgeable about the planning and permit process
-			in major cities, passionate creatives, and membership guinea pigs.
-			</p>
-
-		<p><a class="btn btn-inverse btn-large" href="https://docs.google.com/a/jessykate.com/spreadsheet/viewform?formkey=dGpGSVZDWVlOMklXTkxHT0ZYOWFLN1E6MQ">Drop a Line</a>
-		</p>
-
-		</div>
-		<div class="span4">
-			<h2> Key Dates</h2>
-			<p><b>August 1, 2012:</b> A new SF embassy goes into operation.</p> 
-			<p><b>Fall 2012:</b> A meeting of interested parties in the bay area, dates TBD. Sign up to the left to be notified.</p> 
-			<p><b>Winter 2012:</b> Launch of network alpha experiment</p>
-		</div>
-	</div>
-	</div>
-	<div>
-
-		<hr>
-
-		<footer>
-		<p>The Embassy Network is brought to you by <a
-			href="http://jessykate.com">Jessy Kate Schingler</a>, <a
-			href="https://twitter.com/#!/dunfield">Derek Dunfield</a>,
-		<a href="https://twitter.com/#!/schingler">Robbie
-			Schingler</a>, <a href="http://maximumentropy.org/">Matt Hancher</a>, <a
-			href="https://twitter.com/#!/rstarmer">Robert Starmer</a>,
-		<a href="https://twitter.com/#!/ceanothus">Kathleen
-			Starmer</a>, <a href="https://twitter.com/#!/heyAC">Amanda
-			Carufel</a>, and
-		an incredible community that has been co-living and co-working
-		together for over a decade.  </p>
-
-		<p> <span class="license"> 
-			<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">
-				<img alt="Creative Commons License" style="border-width:0"
-				src="http://i.creativecommons.org/l/by-nc-sa/3.0/80x15.png" />
-			</a>
-			Embassy Network 2012 | 
-			<a href="http://twitter.com/#!/embassynetwork">@embassynetwork</a> | 
-			Built with <a href="http://twitter.github.com/bootstrap/">Bootstrap </a> FTW
-			</p>
-		</footer>
+							<!-- rows with columns -->
+							<div class="row">
+								<div class="span4">
+									<h2>Co-Living</h2>
+									<p>Each Embassy location will offer short and long term residential
+									accommodations in a co-living, community setting. Long term residents
+									live in the Embassy as their primary residence, provide an anchor to
+									local culture, and are active participants in creating activities and
+									events at their location.</p>
+								</div>
+								<div class="span4">
+									<h2>Flexible Duration</h2>
+									<p>In addition to long term accommodations, each Embassy provides
+									short term accommodations operated much like a B&B. Members reserve
+									space at any location in the network, anywhere around the world, as
+									needed to support their travel, work, and collaborations.</p>
+								</div>
+								<div class="span4">
+									<h2>Community Space</h2>
+									<p>Every Embassy location includes a community space open to members
+									and friends to gather and connect. These spaces differ per-location.
+									From co-working space to restaurants, each community space is a key
+									tie-in to local culture and a way to remain outward focused in
+									ideation, problem-solving, and relationship-building.</p>
+								</div>
+							</div>
+						</div><!-- end pane -->
 
 
+						<div class="tab-pane" id="overview">
+							<div class="row">
+								<div class="span3">
+									<h1>Overview</h1>
+									<h2><em>Purpose-driven</em></h2>
+								</div>
+								<div class="span8">
+									<p>The Embassy Network will be a coordinating body: connecting
+									existing properties, coordinating membership, supporting new
+									houses, and providing online resources.</p>
 
-  </div> <!-- /container -->
+									<p>Each individual property, or <em>local embassy node</em>,
+									provides a curated space for organic and impromptu
+									interactions. Each node has independent day-to-day operations
+									and a distinct culture, hosting its own microcosm of workshops,
+									salons, dinners, and other events. Residents are chosen by
+									other residents, and the balance of rooms set aside for short-
+									and long-term accommodation decided together between residents
+									and the Global Embassy Network.</p>
 
-	<script type="text/javascript">
+									<p>By leveraging co-location, the fresh perspectives that comes
+									with travel, the organic interactions that happen in the home
+									environment, and the power of food for building community, we
+									feel that the investment that we and others make in ourselves
+									can be vastly enhanced. Need a little time to focus and
+									reflect? Don't worry, there's space to get away as well. </p>
 
-		var _gaq = _gaq || [];
-		_gaq.push(['_setAccount', 'UA-29650505-1']);
-		_gaq.push(['_trackPageview']);
+								</div>
+							</div>
+						</div><!-- end pane -->
 
-		(function() {
-		 var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-		 ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-		 var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-		 })();
+						<div class="tab-pane" id="locations">
+							<div class="row">
+								<div class="span3">
+									<h1>Locations</h1>
+									<h2><em>Travel and always be at home</em></h2>
+								</div>
+								<div class="span8">
 
-	</script>	
+									<p>The first Embassy nodes are targeted for San Francisco and
+									DC: two urban centers with high concentrations of creative
+									individuals, both resident and transient. We consider our
+									"minimum viable product" to be at least two cities for testing
+									the financial and membership model.</p>
 
-	<script src="js/jquery.js"></script>
-    <script src="js/bootstrap-transition.js"></script>
-    <script src="js/bootstrap-alert.js"></script>
-    <script src="js/bootstrap-modal.js"></script>
-    <script src="js/bootstrap-dropdown.js"></script>
-    <script src="js/bootstrap-scrollspy.js"></script>
-    <script src="js/bootstrap-tab.js"></script>
-    <script src="js/bootstrap-tooltip.js"></script>
-    <script src="js/bootstrap-popover.js"></script>
-    <script src="js/bootstrap-button.js"></script>
-    <script src="js/bootstrap-collapse.js"></script>
-    <script src="js/bootstrap-carousel.js"></script>
-    <script src="js/bootstrap-typeahead.js"></script>
+									<p>The ideal Embassy location has 3 specific functions:</p>
+									<ol>
+										<li>long-term residential rooms and/or suites, 
+										<li>shorter-term accommodations, 
+										<li>a public, possibly commercial, community-oriented space. 
+									</ol>
 
-	<script>
+									<p>An archetypal design would have this community space on the
+									ground floor, open to foot traffic, and supporting collaborations
+									and human interactions, keeping a fresh flow of people and
+									ideas through the space. Each location will decide the
+									specific theme or purpose of this community space as a
+									function of its environment, local needs and culture. It might
+									be a co-working space, cafe, restaurant, bar, or something
+									else. The second floor would house short-term accommodation
+									rooms, as well as a large, industrial-grade, shared kitchen,
+									common rooms, and library.  Finally, the third floor would
+									contain the longer term full time residences. These might be
+									small suites, large rooms, or a combination of both.
+									</p>
+								</div>
+							</div>
+						</div><!-- end pane -->
+
+						<div class="tab-pane" id="membership">
+							<div class="row">
+								<div class="span3">
+									<h1>Membership</h1>
+									<h2><em>Surround yourself with excellence.</em></h2>
+								</div>
+								<div class="span8">
+
+									<p> Passion and drive are cultivated by a supportive external
+									environment, and every Embassy location is a safe haven for new
+									ideas, hard work, reflection, and fun. Membership in the
+									Embassy Network is exclusive-- we want only those willing to
+									assert, with no apologies, their passion for innovation,
+									experimentation, and changing the world for the better. If you
+									see yourself in these words, then you are home. There is no
+									right or wrong. Only a shared purpose and committment.</p>
+
+									<p>Members may either be full-time residents at a specific
+									location in the network, or use the flexible accommodations
+									much like they would use a Bed and Breakfast: as a replacement
+									for the anonymous hotels, mass-produced food, and cultural
+									disconnect that so often comes with traveling for work.</p>
+
+									<p>Membership levels will exist to suit different needs, and include
+									primary-residence, blocks of per-nite accomodation, and
+									organizational membership.</p>
+
+								</div>
+							</div>
+						</div><!-- end pane -->
+
+						<div class="tab-pane" id="financial">
+							<div class="row">
+								<div class="span3">
+									<h1>Financial</h1>
+									<h2><em>A community-profit organization.</em></h2>
+								</div>
+								<div class="span8">
+									<p>The Embassy Network is incorporated as a Benefit Corporation
+									in the state of California. Our fundamental governing principle
+									is to never profiteer off our community and our homes.
+									Correspondingly, we have set out to design an organization that
+									at its core is not-for-profit, but that may take investment if
+									the community decides there is a valuable opportunity to scale.
+									The founding board of directors have inserted a corporate bylaw
+									stating that shareholders and directors agree not to take
+									dividends from the corporation; that any future directors or
+									shareholders must explicitly agree to this bylaw, and that
+									changing this by law requires full consensus of all
+									shareholders and directors. (thus any decision about taking
+									investors would also require this consensus). This is an
+									experiment is creating what we have been calling a
+									"community-profit" organization.</p>
+
+									<p>Any future profits, should they exist, will be re-invested
+									into Embassy Network activities, real estate purchases, or
+									community funding to support projects of our members. Beyond
+									this guiding principle and initial set of stipulations, we
+									intend to select and experiment with decision making, fee and
+									financial structures to ensure sustainability, together with
+									members of the community.</p>
+
+									<p>The Embassy Network will partner with houses to evolve an
+									operational and financial model. It will also offer services
+									such as online booking and payment, house management software,
+									insurance, permitting guidance, cultural, design and financial
+									assistance getting new houses off the ground, and policy
+									advisory/advocacy efforts. </p>
+
+								</div>
+							</div>
+						</div><!-- end pane -->
+
+						<div class="tab-pane" id="getinvolved">
+							<div class="row">
+								<div class="span4">
+									<h2>What We're Doing</h2>
+									<p>At the moment we're focused on discussing and refining the idea,
+									identifying partnerships, writing software, and finding houses who
+									are interested in joining this crazy scheme.</p>
+								</div>
+								<div class="span4">
+									<h2>Interested?</h2> 
+									<p>Anyone passionate about the idea is welcome to drop a line and
+									get involved. Specific skills that would be great right now are
+									designers, front-end developers, coders, connectors, organizational
+									lawyers, people knowledgeable about the planning and permit process
+									in major cities, passionate creatives, and membership guinea pigs.
+									</p>
+
+									<p><a class="btn btn-inverse btn-large" href="https://docs.google.com/a/jessykate.com/spreadsheet/viewform?formkey=dGpGSVZDWVlOMklXTkxHT0ZYOWFLN1E6MQ">Drop a Line</a>
+									</p>
+
+								</div>
+								<div class="span4">
+									<h2> Key Dates</h2>
+									<p><b>August 1, 2012:</b> A new SF embassy goes into operation.</p> 
+									<p><b>Fall 2012:</b> A meeting of interested parties in the bay area, dates TBD. Sign up to the left to be notified.</p> 
+									<p><b>Winter 2012:</b> Launch of network alpha experiment</p>
+								</div>
+							</div>
+						</div><!-- end pane -->
+
+						</div><!-- end tab-content -->
+						</div><!-- end class="main" -->
+
+						<hr>
+
+						<footer>
+						<p>The Embassy Network is brought to you by <a
+							href="http://jessykate.com">Jessy Kate Schingler</a>, <a
+							href="https://twitter.com/#!/dunfield">Derek Dunfield</a>,
+						<a href="https://twitter.com/#!/schingler">Robbie
+							Schingler</a>, <a href="http://maximumentropy.org/">Matt Hancher</a>, <a
+							href="https://twitter.com/#!/rstarmer">Robert Starmer</a>,
+						<a href="https://twitter.com/#!/ceanothus">Kathleen
+							Starmer</a>, <a href="https://twitter.com/#!/heyAC">Amanda
+							Carufel</a>, and
+						an incredible community that has been co-living and co-working
+						together for over a decade.  </p>
+
+						<p> <span class="license"> 
+							<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+								<img alt="Creative Commons License" style="border-width:0"
+								src="http://i.creativecommons.org/l/by-nc-sa/3.0/80x15.png" />
+							</a>
+							Embassy Network 2012 | 
+							<a href="http://twitter.com/#!/embassynetwork">@embassynetwork</a> | 
+							Built with <a href="http://twitter.github.com/bootstrap/">Bootstrap</a>, FTW.
+							</p>
+							</footer>
+
+						</div> <!-- /container -->
+
+						<script type="text/javascript">
+
+							var _gaq = _gaq || [];
+							_gaq.push(['_setAccount', 'UA-29650505-1']);
+							_gaq.push(['_trackPageview']);
+
+							(function() {
+							 var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+							 ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+							 var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+							 })();
+
+</script>	
+
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap-transition.js"></script>
+<script src="js/bootstrap-alert.js"></script>
+<script src="js/bootstrap-modal.js"></script>
+<script src="js/bootstrap-dropdown.js"></script>
+<script src="js/bootstrap-scrollspy.js"></script>
+<script src="js/bootstrap-tab.js"></script>
+<script src="js/bootstrap-tooltip.js"></script>
+<script src="js/bootstrap-popover.js"></script>
+<script src="js/bootstrap-button.js"></script>
+<script src="js/bootstrap-collapse.js"></script>
+<script src="js/bootstrap-carousel.js"></script>
+<script src="js/bootstrap-typeahead.js"></script>
+
+<script>
 	$(function () {
 		$('#page-tabs a:first').tab('show');
 	})
-	</script>
+</script>
 
   </body>
 </html>
